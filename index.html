@@ -52,6 +52,27 @@
       </ul>
     </div>
 
+    <!--   HTML javascript -->
+    <div class="common">
+      <h2 id="sample1">Color change using JavaScript</h2>
+      <p id="Dte">Date</p>
 
+      <script>
+        let colorChangeToBlue = () =>
+          (document.getElementById("sample1").style.color = "blue");
+
+        let colorChangeToyellow = () =>
+          (document.getElementById("sample1").style.color = "yellow");
+
+        //for display date
+        let Dt = () => (document.getElementById("Dte").innerHTML = Date());
+      </script>
+
+      <button onclick="colorChangeToBlue()">Blue</button>
+
+      <button onclick="colorChangeToyellow()">Yellow</button>
+      <br />
+      <button type="button" onclick="Dt()">click to see Date</button>
+    </div>
   </body>
 </html>

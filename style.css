@@ -14,4 +14,14 @@ h2{
     border-radius: 10px ;
 }
 
+button{
+    color: blue;
+    background-color: chartreuse;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 5px;
+    border: 3px solid rgb(65, 0, 218);
+}
 
