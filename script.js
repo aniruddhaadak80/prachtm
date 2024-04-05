@@ -1,25 +1,14 @@
 // Addition of two numbers .
-function AddTwoNum(n1, n2) {
+function addTwoNum(n1, n2) {
   let res = document.getElementById("h12");
   res.innerHTML = "Sum of 90 and 3 is " + (n1 + n2);
-  // styles
-  res.style.color = "violet";
-  res.style.fontFamily = "verdana";
-  res.style.backgroundColor = "blue";
-  res.style.padding = "10px";
 }
+addTwoNum(90, 3);
 
-AddTwoNum(90, 3);
-
-// setTimeout function .
+// setTimeout function 
 function welcome() {
   let msg = document.getElementById("h11");
-  msg.innerHTML = "Welcome to Homepage  ";
-  //styles
-  msg.style.color = "green";
-  msg.style.backgroundColor = "skyblue";
-  msg.style.fontSize = "50px";
-  msg.style.padding = "10px";
+  msg.innerHTML = "Welcome to Homepage 🏠";
 }
 setTimeout(welcome, 5000); //5000 -->5 seconds
 
@@ -30,10 +19,5 @@ function sampleTime() {
   //   main content
   time.innerHTML =
     "Time => " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
-  // styles
-  time.style.color = "red";
-  time.style.fontSize = "40px";
-  time.style.backgroundColor = "skyblue";
-  time.style.padding = "10px";
 }
 setInterval(sampleTime, 1000); //1000 --> 1 seconds
