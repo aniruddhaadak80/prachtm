@@ -8,9 +8,27 @@
   </head>
 
   <body>
+    <!-- Navigation Bar -->
+    <div class="common">
+      <nav>
+        <a href="#marquee"><button>Marquee</button></a>
+        &amp;
+        <a href="#deflist"><button>Definition</button></a>
+        &amp;
+        <a href="#ccode"><button>Code</button></a>
+        &amp;
+        <a href="#sample1"><button>Color & Date</button></a>
+        &amp;
+        <a href="#msymb"><button>Symbols</button></a>
+        &amp;
+        <a href="#entity"><button>Entities</button></a>
+        &amp;
+        <a href="#1st"><button>Headings</button></a>
+      </nav>
+    </div>
     <!-- It is HTML comments -->
     <!--*********** All Headings (h1 to h6) ********** -->
-    <div class="common">
+    <div class="common" id="1st">
       <h1>I am heading 1.</h1>
       <h2>I am heading 2.</h2>
       <h3>I am heading 3.</h3>
@@ -21,7 +39,7 @@
 
     <!-- ************ HTML Entities  ******** -->
     <div class="common">
-      <h2>HTML Entities</h2>
+      <h2 id="entity">HTML Entities</h2>
       <ol>
         <li>Copyright = &copy;</li>
         <li>Less than = &lt;</li>
@@ -39,7 +57,7 @@
 
     <!-- Mathematical Symbols Supported by HTML -->
     <div class="common">
-      <h2>Mathematical Symbols Supported by HTML</h2>
+      <h2 id="msymb">Mathematical Symbols Supported by HTML</h2>
       <ul>
         <li>Partial Differentiation = &part;</li>
         <li>For All = &forall;</li>
@@ -79,7 +97,7 @@
 
     <!-- HTML Computer Code Elements -->
     <div class="common">
-      <h2>HTML Computer Code Elements</h2>
+      <h2 id="ccode">HTML Computer Code Elements</h2>
       <div class="code">
         <pre>
        <code>
@@ -97,7 +115,7 @@
     <!-- HTML Definition List
     -->
     <div class="common">
-      <h2>HTML Definition List</h2>
+      <h2 id="deflist">HTML Definition List</h2>
       <dl>
         <dt>CSS :</dt>
         <dd>Cascading Style Sheet .</dd>
@@ -111,7 +129,7 @@
     <!-- HTML Marquee Examples
  -->
     <div class="common">
-      <h2>HTML Marquee Text Examples</h2>
+      <h2 id="marquee">HTML Marquee Text Examples</h2>
       <ol>
         <li>
           UP &darr;
@@ -126,7 +144,7 @@
           >
         </li>
         <h2>HTML Marquee Image &darr;</h2>
-        <marquee behavior="alternate" direction="left" scrollamount="10">
+        <marquee behavior="alternate" direction="right" scrollamount="10">
           <img
             src="https://image.lexica.art/full_webp/4b2e27fd-d1d0-4a27-8662-afbc6492f449"
             width="120"
