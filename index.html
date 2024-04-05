@@ -6,6 +6,7 @@
     <title>Html Practice Sheet</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- It is HTML comments -->
     <!--*********** All Headings (h1 to h6) ********** -->
@@ -20,7 +21,7 @@
 
     <!-- ************ HTML Entities  ******** -->
     <div class="common">
-      <h2>HTML Entities -</h2>
+      <h2>HTML Entities</h2>
       <ol>
         <li>Copyright = &copy;</li>
         <li>Less than = &lt;</li>
@@ -36,6 +37,7 @@
       </ol>
     </div>
 
+    <!-- Mathematical Symbols Supported by HTML -->
     <div class="common">
       <h2>Mathematical Symbols Supported by HTML</h2>
       <ul>
@@ -73,6 +75,66 @@
       <button onclick="colorChangeToyellow()">Yellow</button>
       <br />
       <button type="button" onclick="Dt()">click to see Date</button>
+    </div>
+
+    <!-- HTML Computer Code Elements -->
+    <div class="common">
+      <h2>HTML Computer Code Elements</h2>
+      <div class="code">
+        <pre>
+       <code>
+      let x=10; 
+      let y= 9; 
+      console.log(x*y); //output ---> 90. 
+    </code>
+</pre>
+      </div>
+      <p>Save files through :<kbd>ctrl+s</kbd>.</p>
+      <p>Format HTML code through :<kbd>shift+alt+f</kbd>.</p>
+      <p><var>X , Y ,Z</var> are all variables .</p>
+    </div>
+
+    <!-- HTML Definition List
+    -->
+    <div class="common">
+      <h2>HTML Definition List</h2>
+      <dl>
+        <dt>CSS :</dt>
+        <dd>Cascading Style Sheet .</dd>
+        <dt>React :</dt>
+        <dd>A javscript Library created by facebook .</dd>
+        <dt>Node js :</dt>
+        <dd>Runtime environment of javascript .</dd>
+      </dl>
+    </div>
+
+    <!-- HTML Marquee Examples
+ -->
+    <div class="common">
+      <h2>HTML Marquee Text Examples</h2>
+      <ol>
+        <li>
+          UP &darr;
+          <marquee behavior="scroll" direction="up" scrollamount="2"
+            >uP Up Up up upp ...</marquee
+          >
+        </li>
+        <li>
+          ALTERNATE &darr;
+          <marquee behavior="alternate" direction="left"
+            >Alternate alternate aLternate ...</marquee
+          >
+        </li>
+        <h2>HTML Marquee Image &darr;</h2>
+        <marquee behavior="alternate" direction="left" scrollamount="10">
+          <img
+            src="https://image.lexica.art/full_webp/4b2e27fd-d1d0-4a27-8662-afbc6492f449"
+            width="120"
+            height="80"
+            alt="cute Cats"
+          />
+        </marquee>
+      </ol>
     </div>
   </body>
 </html>
