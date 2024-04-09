@@ -1,3 +1,4 @@
+// Date --> 9/4/2024
 console.log(target); //undefined
 var target = "Advanced javascript ";
 console.log(target); //Advanced javascript 
