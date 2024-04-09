@@ -7,13 +7,13 @@ let studentDetails = {
     console.log("I can play football...");
   },
 };
-console.log(studentDetails);
+console.log(studentDetails); //shows object in console
 
-// add function to another onject from studentdetails objects
+// add function to another object from studentdetails objects
 let teacherSkills = {
   skill: "Teaching",
 };
 
 teacherSkills.__proto__ = studentDetails; //prototype is a special property in object
 
-console.log(teacherSkills.Curriculam());
+console.log(teacherSkills.Curriculam()); // I can play football...

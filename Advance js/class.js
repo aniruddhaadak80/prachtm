@@ -1,4 +1,5 @@
 // Date --> 9/4/2024
+// ********* class ---> blueprint/template of object ***********
 class User {
   user(id, name) {
     console.log(`ID of ${name} is ${id}.`); // using backtricks or ` `
