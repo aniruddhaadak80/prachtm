@@ -1,0 +1,14 @@
+.otpdiv {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+button {
+  color: rgb(0, 255, 30);
+  background-color: blueviolet;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 4px;
+}

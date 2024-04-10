@@ -48,7 +48,7 @@
 
     <!-- ************ HTML Entities  ******** -->
     <div class="common">
-      <h2 id="entity">HTML Entities</h2>
+      <h2 id="entity"><u>HTML Entities</u></h2>
       <ol>
         <li>Copyright = &copy;</li>
         <li>Less than = &lt;</li>
@@ -66,7 +66,7 @@
 
     <!-- Mathematical Symbols Supported by HTML -->
     <div class="common">
-      <h2 id="msymb">Mathematical Symbols Supported by HTML</h2>
+      <h2 id="msymb"><u>Mathematical Symbols Supported by HTML</u></h2>
       <ul>
         <li>Partial Differentiation = &part;</li>
         <li>For All = &forall;</li>
@@ -83,24 +83,40 @@
 
     <!--   HTML javascript -->
     <div class="common">
-      <h2 id="sample1">Color change using JavaScript</h2>
-      <p id="Dte">Date</p>
+      <h2 id="sample1"><u>Color change using JavaScript</u></h2>
+      <h3 id="Dte">Date ...</h3>
 
       <script>
         let colorChangeToBlue = () =>
           (document.getElementById("sample1").style.color = "blue");
 
-        let colorChangeToyellow = () =>
+        let colorChangeToYellow = () =>
           (document.getElementById("sample1").style.color = "yellow");
 
+        let colorChangeToRed = () =>
+          (document.getElementById("sample1").style.color = "red");
+
         //for display date
-        let Dt = () => (document.getElementById("Dte").innerHTML = Date());
+        let Dt = () => {
+          let date = document.getElementById("Dte");
+          date.innerHTML = Date();
+          // style
+          date.style.color = "purple";
+          date.style.fontFamily = "Helvetica";
+        };
       </script>
 
+      <!-- color blue -->
       <button onclick="colorChangeToBlue()">Blue</button>
 
-      <button onclick="colorChangeToyellow()">Yellow</button>
+      <!-- yellow color -->
+      <button onclick="colorChangeToYellow()">Yellow</button>
+
+      <!-- color red -->
+      <button onclick="colorChangeToRed()">Red</button>
+
       <br />
+      <!-- display date  -->
       <button type="button" onclick="Dt()">click to see Date</button>
     </div>
 
